@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(177, 177, 238, 0.79);
+}
+
+.card{
+    height: 480px;
+    width: 300px;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%); 
+    background-color: aliceblue; 
+    color: black;
+    border-radius: 9px;
+}
+
+.card img{
+    height:230px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+span{
+    border: 1px solid gray;
+    margin-left: 10px;
+    gap:10px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+.middile-container{
+    margin: 10px ;
+}
+
+.middile-container p{
+    margin-top: 10px;
+}
+
+#button{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(49, 49, 182);
+    color: #fff;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 2px solid #ff5900; /* Change the color to your preference */
+    background-color: #ff5900;
+    color: #fff;
+}
