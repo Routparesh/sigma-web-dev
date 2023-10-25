@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global css variable */
+
+:root{
+    --primaryColor:purple;
+    --secColor: orange;
+    --defbor:2px solid red;
+}
+
+
+.nav{
+    background-color: var(--primaryColor);
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap:20px;
+}
+
+.nav ul{
+    
+    --color: rgb(255, 51, 0);
+    color: var(--color);
+    border:var(--defbor);
+}
+
+.container{
+    background-color: rgb(91, 204, 91);
+}
