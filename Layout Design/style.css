@@ -14,7 +14,6 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 50px;
-    position: sticky;
 }
 
 nav ul:hover{
@@ -33,6 +32,7 @@ nav ul {
     justify-content: right;
     align-items: center;
     gap: 30px;
+    position: sticky;
 }
 
 nav ul li {
@@ -80,6 +80,7 @@ nav ul li {
     margin: 20px;
     width: 90%;
     background-color: #5051ad;
+    color: aliceblue;
 }
 
 footer{
