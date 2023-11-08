@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css-transform</title>
+    <style>
+        .bg-box {
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* transform: rotateX(40deg); */
+            /* transform: scale(1, 1); */
+            /* transform: skew(8deg); */
+            /* transform-origin: 12% 30%;
+            transform: rotate(0.125turn); */
+            /* transition: transform 0.5s ease; */
+        }
+
+        .bg-box:hover {
+            transform: scale(1.2, 1.2);
+            transition: transform 0.5s ease;
+        }
+
+        .container {
+            height: 80vh;
+            width: 100vw;
+            border: 2px solid purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bg-box">box</div>
+    </div>
+</body>
+
+</html>
