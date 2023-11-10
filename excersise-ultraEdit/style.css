@@ -66,6 +66,7 @@ nav:hover{
     Font-size:24px;
     color:rgb(34, 34, 34);
     margin-top:40px;
+    line-height: 31px;
 }
 
 .container-1 button{
@@ -80,4 +81,53 @@ nav:hover{
 
 .container-1 button:hover{
     cursor: pointer;
+}
+
+.middle-container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 20px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.item{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.item h2{
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.bit-32{
+    background-color: #09A6BD;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.bit-64{
+    background-color: #81C780;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bit-32 , .bit-64:hover{
+    cursor: pointer;
+}
+
+.middle-container .item:first-child .bit-32,
+.middle-container .item:first-child .bit-64 {
+    margin-top: 40px;
 }
