@@ -21,48 +21,29 @@
             bottom: 0;
             left: 0;
             border-radius: 50px;
-            animation: bounce 2s ease-in-out infinite forwards;
+            animation: bounceX 3s linear infinite, bounceY 1s ease-out infinite alternate;
+
         }
 
-        @keyframes bounce {
-            0% {
-                transform: translateX(0) translateY(0);
-
+        @keyframes bounceX {
+            from {
+                left: 0;
             }
 
-            10% {
-                transform: translateY(-220%);
+            to {
+                left: 100%;
+            }
+        }
+
+
+        @keyframes bounceY {
+            from {
+                bottom: 0;
             }
 
-            20% {
-                transform: translateX(70%);
+            to {
+                bottom: 100%;
             }
-
-            30% {
-                transform: translateY(-220%) translateX(200%);
-            }
-
-            40% {
-                transform: translateX(330%);
-            }
-
-            50% {
-                transform: translateY(-220%) translateX(460%);
-            }
-
-            60% {
-                transform: translateX(590%);
-            }
-
-            80% {
-                transform: translateY(-220%) translateX(720%);
-            }
-
-            90% {
-                transform: translateX(930%);
-                animation-play-state: paused;
-            }
-
         }
     </style>
 </head>
