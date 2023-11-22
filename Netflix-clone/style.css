@@ -131,3 +131,79 @@ nav button{
     justify-content: space-around;
     gap: 10px;
 }
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: #fff;
+}
+
+.first-div h1{
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.first-div p{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.secImg{
+    position: relative;
+}
+
+.secImg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video{
+    position: absolute;
+    top:51px;
+    right: 0;
+    width: 27vw;
+}
+
+.line-2{
+    height: 7px;
+    background-color: rgb(83, 80, 80);
+}
+
+.third .secImg video {
+    position: absolute;
+    left: 75px;
+    bottom: 300px;
+    width: 18vw;
+    right: 50px;
+}
+
+
+.faq h2{
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 48px;
+    padding: 20px;
+}
+
+.faq-box{
+    display: flex;
+    background-color: rgb(65,65,65);
+    justify-content: space-between;
+    padding: 20px;
+    color:#fff;
+    max-width: 70vw;
+    margin: 24px auto;
+    font-weight: 400;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.faq-box svg{
+    color: #fff;
+}
